@@ -6,7 +6,9 @@
 
         <title>{{ $title ?? 'Taskboard' }}</title>
 
+        <link rel="stylesheet" href="public\build\assets\app-B-bVuAmC.css">
         @vite('resources/css/app.css')
+        @livewireStyles
     </head>
     <body>
         @auth
@@ -19,6 +21,8 @@
 
         <footer class="pt-12"></footer>
 
+        <script src="public\build\assets\app-rYFCqwdu.js"></script>
         @vite('resources/js/app.js')
+        @livewireScripts
     </body>
 </html>
